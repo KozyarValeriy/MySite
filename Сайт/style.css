@@ -1,0 +1,144 @@
+﻿html {
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: times, 'Handlee', cursive;
+	font-size: 20px;
+	background-color: #E0E0E0;
+	padding: 10px;
+	margin: 0;
+}
+h1 {
+	font-size: 18px;
+	color: #20bcd5;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	margin: 10px;
+}
+h2 {
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	padding: 5px 0 0 0;
+	margin: 4px;
+}
+
+#headerh {
+	background-image: url('image/neb.jpg');
+	background-size: cover;
+}
+section {
+	text-align: justify; 
+}
+.sect {
+	background-color: #fff;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#left-art {
+	float:right;
+	width:80%;
+}
+h1 span {
+	border: 2px dashed #20bcd5;
+	padding: 8px;
+}
+/*.sect #abfoto {
+	position: absolute;
+	left:25%;
+	rignt:-25%;
+	top: 150px;
+}*/
+progress {
+	height:20px;
+	/*background:#efefef;*/
+}
+.sect #foto {
+	float: left;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+table {
+	width: 100%;
+}
+.rel {
+	background-color: orange;
+}
+#Ord, td {
+	text-align: center;
+	border:2px solid #cecece;
+	border-collapse: collapse;
+	padding: 5px 0 5px 0;
+}
+.learn td {
+	text-align: center;
+	border:none;
+	font-weight:bold;
+}
+.clear {
+	clear:both;
+}
+footer {
+	font-size: 12px;
+	text-align: right;
+	color: grey;
+	width: 100%;
+	letter-spacing: 1px;
+}
+.contact {
+	text-align: center;
+}
+/*Все по навигации*/
+#main-nav {
+	float:left;
+	width:20%;
+	text-align: center;
+}
+#noto {
+	list-style-type:none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0;
+}
+#noto li {
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+}
+#noto a {
+	font-size: 18px;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: Black;
+	
+}
+/*Дата для новостей*/
+.data {
+	font-size: 14px;
+	text-align: right;
+	color: #00B092;
+	width: 100%;
+}
+input, textarea {
+	width: 80%;
+	padding: 4px;
+	margin: 2px;
+	font-size: 15px;
+}
+textarea {
+	height: 100px;
+	resize: none;
+}
+button {
+	width:40%;
+	height: 30px;
+	font-size: 18px;
+	color: white;
+	font-weight:bold;
+	background-color:#43A09D; 
+	border: none;
+	border-radius: 5px;
+}

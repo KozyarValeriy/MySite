@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Мой первый сайт</title>
+		<meta charset = 'UTF-8'>
+		<link rel = 'stylesheet' href = 'style.css'>
+	</head>
+	<body>
+		<header class = 'sect' id = 'headerh'>
+			<h1>Мой первый сайт</h1>
+		</header>
+		<!--<article class = 'sect'>
+			<h1>Valeriy Kozyar</h1>
+		</article>-->
+		<!--Первая часть сайта-->
+		<nav id="main-nav">
+			<ul id = 'noto' > 
+				<a href="Сайт.html"><li>Главная</li></a>
+				<a href="новости.html"><li>Новости</li></a>
+				<a href="отзывы.html"><li>Отзывы</li></a>
+				<a href="медиа.html"><li>Медиа</li></a>
+			</ul>
+		</nav>
+		<!--Основная часть сайта-->
+		<article id = 'left-art'>
+			<!--Информация обо мне-->
+			<section class = 'sect'>
+				<h1><span>Информация обо мне</span></h1>
+				<!--
+				<p><img id = 'foto' src = 'image\2382.jpg' width = '20%' alt = 'Это я'/></p>
+				-->
+				<p>
+				Привет! Меня зовут Валерий Козяр. Я выпускник
+				<strong>МГТУ имени Баумана</strong>. На сегодняшний 
+				день я работаю на предприятии инженером-технологом, 
+				но в будущем я планирую работать <ins>программистом</ins>.
+				 Мне нравится писать код и создавать что-то новое!				
+				</p>
+			</section>
+			<!--Мое расписание-->
+			<section class = 'sect'>
+				<h1><span>Мое распиание</span></h1>
+				<table id = 'Ord'>
+					<tr>
+						<td>Понедельник</td>
+						<td>Вторник</td>
+						<td>Среда</td>
+						<td>Четверг</td>
+						<td>Пятница</td>
+						<td>Выходные</td>
+					</tr>
+					<tr>
+						<td>7:00-15:45</td>
+						<td>Работа</td>
+						<td>Работа</td>
+						<td>Работа</td>
+						<td>Работа</td>
+						<td class = 'rel'>Отдых</td>
+					</tr>
+					<tr>
+						<td>16:00-21:30</td>
+						<td class = 'rel'>Отдых</td>
+						<td class = 'rel'>Отдых</td>
+						<td class = 'rel'>Отдых</td>
+						<td class = 'rel'>Отдых</td>
+						<td class = 'rel'>Отдых</td>
+					</tr>
+				</table>
+				<p>Если хотите договориться о встрече, просто выберите нужный день</p>
+			</section>
+			<!--Уровень знания языков-->
+			<section class = 'sect'>
+				<h1><span>Уровень знания языков программирования</span></h1>
+					<table class = 'learn'>
+						<tr>
+							<td><a href = 'https://ru.wikipedia.org/wiki/HTML5' target = '_blank'><img src = 'image\HTML5.png' width = '40' alt = 'HTML5'></a></td>
+							<td>HTML5</td>
+							<td><progress min = '0' max = '100' value = '45'></td>
+						</tr>
+						<tr>
+							<td><a href = 'https://ru.wikipedia.org/wiki/CSS#Уровень_3_(CSS3)' target = '_blank'><img src = 'image\CSS3.png' width = '40' alt = 'CSS3'></a></td>
+							<td>CSS3</td>
+							<td><progress min = '0' max = '100' value = '10'></td>
+						</tr>
+						<tr>
+							<td><a href = 'https://ru.wikipedia.org/wiki/Python' target = '_blank'><img src = 'image\Python.png' width = '40' alt = 'Python'></a></td>
+							<td>Python 3</td>
+							<td><progress min = '0' max = '100' value = '30'></td>
+						</tr>
+						<tr>
+							<td><a href = 'https://ru.wikipedia.org/wiki/Delphi' target = '_blank'><img src = 'image\Delphi.png' width = '40' alt = 'Delphi'></a></td>
+							<td>Delphi</td>
+							<td><progress min = '0' max = '100' value = '65'></td>
+						</tr>
+					</table>
+			</section>
+			<!--Связь-->
+			<section class = 'sect'>
+				<h1><span>Контакты</span></h1>
+				<p align = 'center' >Вы можете связаться со мной</p>
+				<p class = 'contact'>
+				<a href = 'https://www.facebook.com/monqpepers' target = '_blank'>
+				<img src = 'image\facebook.png' width = '40' alt = 'Facebook'></a>
+				<a href = 'https://www.instagram.com/kozyar' target = '_blank'>
+				<img src = 'image\instagram.png' width = '40' alt = 'Instagram'></a>
+				<a href = 'mailto:monqpepers@gmail.com'>
+				<img src = 'image\gmail.png' width = '40' alt = 'Gmail'></a>
+				<a href = 'https://hh.ru/resume/469aa7cfff058eb0370039ed1f346a4b6a4b51' target = '_blank'>
+				<img src = 'image\hh.png' width = '40' alt = 'HeadHunter'></a>
+				</p>
+			</section>
+		</article>
+		<!--Подвал-->
+		<div class = 'clear'>
+		</div>
+		<footer>
+			<p>Сайт разработан Козяром В. Н.</p>
+		</footer>
+	</body>
+</html>
